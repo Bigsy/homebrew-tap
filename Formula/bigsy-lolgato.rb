@@ -9,6 +9,8 @@ class BigsyLolgato < Formula
   depends_on :macos
 
   def install
+    ENV["SWIFTPM_DISABLE_SANDBOX"] = "1"
+
     system "xcodebuild",
       "-project", "Lolgato.xcodeproj",
       "-scheme", "Lolgato",
