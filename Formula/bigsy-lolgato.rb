@@ -1,16 +1,14 @@
 class BigsyLolgato < Formula
   desc "Control Elgato lights from the menu bar"
   homepage "https://github.com/Bigsy/Lolgato"
-  url "https://github.com/Bigsy/Lolgato/archive/refs/tags/v1.9.1.tar.gz"
-  sha256 "29e57bcbcae7d3b41ad5211f8abee07ad25d62d5b0b8e2ef6cb3ad48f81d3b19"
+  url "https://github.com/Bigsy/Lolgato/archive/refs/tags/v1.9.2.tar.gz"
+  sha256 "782a6ec7c6e90125b22a6876f493f18ddc1228e7d8fef47889b03dff5be1296b"
   license "MIT"
 
   depends_on xcode: ["15.0", :build]
   depends_on :macos
 
   def install
-    ENV["SWIFTPM_DISABLE_SANDBOX"] = "1"
-
     system "xcodebuild",
       "-project", "Lolgato.xcodeproj",
       "-scheme", "Lolgato",
