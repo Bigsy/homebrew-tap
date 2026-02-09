@@ -1,8 +1,8 @@
 class BigsyLolgato < Formula
   desc "Control Elgato lights from the menu bar"
   homepage "https://github.com/Bigsy/Lolgato"
-  url "https://github.com/Bigsy/Lolgato/archive/refs/tags/v1.9.0.tar.gz"
-  sha256 "a1df20eb6fefbfc0152aa66d9994f6f59e1b57a6e6383244570011f20998f07d"
+  url "https://github.com/Bigsy/Lolgato/archive/refs/tags/v1.9.1.tar.gz"
+  sha256 "29e57bcbcae7d3b41ad5211f8abee07ad25d62d5b0b8e2ef6cb3ad48f81d3b19"
   license "MIT"
 
   depends_on xcode: ["15.0", :build]
