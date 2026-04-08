@@ -1,8 +1,8 @@
 cask "bigsy-macsyzones" do
-  version "0.0.2"
-  sha256 "51a055af9d4d89a0b6a5b7baa1fe803a58657d42693f205efb6c1aa73e67855b"
+  version "0.0.3"
+  sha256 "05a9f6be0374c37b73f87661327f6ffa0fef57668143e6a65b4f95171b1327f7"
 
-  url "https://github.com/Bigsy/MacsyZones/releases/download/v0.0.2/MacsyZones.zip"
+  url "https://github.com/Bigsy/MacsyZones/releases/download/v0.0.3/MacsyZones.zip"
   name "MacsyZones"
   desc "macOS window management with zone snapping"
   homepage "https://github.com/Bigsy/MacsyZones"
