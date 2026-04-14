@@ -1,8 +1,8 @@
 class Mcpmu < Formula
   desc "TUI for managing MCP (Model Context Protocol) servers"
   homepage "https://github.com/Bigsy/mcpmu"
-  url "https://github.com/Bigsy/mcpmu/archive/refs/tags/v0.1.23.tar.gz"
-  sha256 "9fe9c86d71eb8698370eb4e791d5315468e394d890977eaee42498ecd9d5af32"
+  url "https://github.com/Bigsy/mcpmu/archive/refs/tags/v0.1.24.tar.gz"
+  sha256 "629a36af004a51bb9ba0681e6d5013c7cc20c2768079149d0f23fb1cf04e45e7"
   license "MIT"
 
   depends_on "go" => :build
